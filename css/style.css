@@ -1,0 +1,73 @@
+.range__filter {
+    margin: 50px auto;
+    width: 250px;
+}
+
+.range__title {
+    margin-bottom: 15px;
+    padding-left: 22px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.filter__range-controls {
+    height: 80px;
+    margin-bottom: 15px;
+    padding: 0 30px;
+    background: darkgray;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.controls__scale {
+    position: relative;
+    margin-top: 40px;
+    height: 2px;
+    background: white;
+    width: 100%;
+}
+
+.scale__bar {
+    margin-top: 40px;
+    width: 60%;
+    height: 2px;
+    background: black;
+}
+
+.controls__toggle {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: black;
+    border: 4px white solid;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.controls__toggle:hover {
+    background: gray;
+}
+
+.controls__togle--min {
+    left: 0%;
+    top: -7px;
+}
+
+.controls__toggle--max {
+    left: 60%;
+    top: -7px;
+}
+
+.filter__price-controls input{
+    width: 70px;
+    padding: 8px 10px;
+    margin-left: 13px;
+    border: none;
+    background: darkgray;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    border-radius: 10px;
+}
